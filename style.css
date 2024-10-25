@@ -1,0 +1,86 @@
+body{
+    background-color: antiquewhite;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+/* table, th, td{
+    justify-content: flex-end;
+    margin: 0 15px;;
+} */
+a{
+    text-decoration: none;
+}
+.container1{
+    backface-visibility: hidden;
+    background: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px solid red;
+    padding: 10px 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    border-radius: 200px;
+    text-decoration: none;
+
+}
+
+.right_text a{
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.left_text a{
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.center_image{
+    align-items: center;
+    display: block;
+}
+
+.container2{
+    display: flex;
+    padding: 30px;
+}
+.right_para{
+    display: flex;
+    padding: 42px;
+}
+
+.container3{
+    display: flex;
+    padding: 30px;
+}
+
+.right_vedio1{
+    display: flex;
+    padding: 0%;
+}
+
+.left_para{
+    display: flex;
+    padding:82px;
+}
+
+.shreyanka, img{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:hover{
+    color: brown;
+    /* cursor: pointer; */
+}
+

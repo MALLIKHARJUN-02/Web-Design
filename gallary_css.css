@@ -1,0 +1,37 @@
+body{
+    background-color: antiquewhite;
+    text-align: justify;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding: 20px;
+    position: sticky;
+    top: 0% ;
+    border-radius: 100px;
+}
+
+.navItem{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.navItem:hover{
+    background-color: brown;
+}
+
+.images,img{
+    display: flex;
+    margin: 17px;
+    padding: 10px;
+}
+
+img{
+    backface-visibility: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
